@@ -6,7 +6,7 @@ namespace Runner
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(GeneratedCode.GeneratedClass.TestProperty);
         }
     }
 }

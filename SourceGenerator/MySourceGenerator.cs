@@ -13,9 +13,9 @@ namespace SourceGenerator
             const string source = @"
                 namespace GeneratedCode
                 {
-                    public class GeneratedClass
+                    public static class GeneratedClass
                     {
-                        public string TestProperty => ""Hello from generated source!"";
+                        public static string TestProperty => ""Hello from generated source!"";
                     }
                 }
                 ";
