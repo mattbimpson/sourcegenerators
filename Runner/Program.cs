@@ -2,11 +2,15 @@
 
 namespace Runner
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GeneratedCode.GeneratedClass.TestProperty);
+            HelloFrom("Generated Code");
+
+            Console.ReadKey();
         }
+
+        static partial void HelloFrom(string name);
     }
 }
